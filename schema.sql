@@ -35,3 +35,14 @@ CREATE TABLE vets (
     age INT,
     date_of_graduation DATE NOT NULL
 );
+
+CREATE TABLE specializations (
+    vet_id BIGINT REFERENCES vets (id),
+    species_id BIGINT REFERENCES species (id)
+);
+
+CREATE TABLE visits (
+    vet_id BIGINT REFERENCES vets (id),
+    animal_id BIGINT REFERENCES animals (id),
+    date_of_visit DATE NOT NULL
+);
