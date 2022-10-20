@@ -35,3 +35,11 @@ UPDATE animals SET owner_id = '2' WHERE name = 'Gabumon' OR name = 'Pikachu';
 UPDATE animals SET owner_id = '3' WHERE name = 'Devimon' OR name = 'Plantmon';
 UPDATE animals SET owner_id = '4' WHERE name = 'Charmander' OR name = 'Squirtle' OR name = 'Blossom';
 UPDATE animals SET owner_id = '5' WHERE name = 'Angemon' OR name = 'Boarmon';
+
+-- JOIN TABLES
+
+INSERT INTO vets(name, age, date_of_graduation)
+VALUES('Vet William Tatcher', '45',  date '2000-04-23'),
+('Vet Maisy Smith', '26',  date '2019-01-17'),
+('Vet Stephanie Mendez', '64',  date '1981-05-04'),
+('Vet Jack Harkness', '38',  date '2008-06-08');
