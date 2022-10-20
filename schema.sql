@@ -26,3 +26,12 @@ CREATE TABLE species (
 
 ALTER TABLE animals ADD COLUMN species_id BIGINT REFERENCES species (id);
 ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners (id);
+
+-- Join Tables
+
+CREATE TABLE vets (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    date_of_graduation DATE NOT NULL
+);
