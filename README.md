@@ -6,6 +6,7 @@ Using the Microverse curriculum-databases-projects-template, I demonstrated vari
 
 - Relational Database PostgreSQL
 - Visual Studio Code
+- Git(version control)
 - Schema Diagram [drawSQL](https://drawsql.app/)
 
 ## Getting Started
@@ -15,10 +16,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - I used [schema.sql](./schema.sql) to create all tables.
 - I used [data.sql](./data.sql) to populate tables with sample data.
 - I wrote all my queries inn [queries.sql](./queries.sql).
-
-## Technology Used
-- PostgreSQL
-- Git(version control)
 
 ## Getting Started
 
