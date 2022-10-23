@@ -2,6 +2,12 @@
 
 Using the Microverse curriculum-databases-projects-template, I demonstrated various queries that could be performed with PostgreSQL.
 
+## Built With
+
+- Relational Database PostgreSQL
+- Visual Studio Code
+- Schema Diagram [drawSQL](https://drawsql.app/)
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
